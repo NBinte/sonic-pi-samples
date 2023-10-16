@@ -1,0 +1,113 @@
+#1
+play :E4, release: 1
+sleep 1
+
+#2
+play :G4, release: 2
+sleep 2
+play :A4, release: 1
+sleep 1
+
+#3
+play :B4, release: 1.5
+sleep 1.5
+play :C5, release: 0.5
+sleep 0.5
+play :B4, release: 1
+sleep 1
+
+#4
+play :A4, release: 2
+sleep 2
+play :Fs4, release: 1
+sleep 1
+
+#5
+play :D4, release: 1.5
+sleep 1.5
+play :E4, release: 0.5
+sleep 0.5
+play :Fs4, release: 1
+sleep 1
+
+#6
+play :G4, release: 2
+sleep 2
+play :E4, release: 1
+sleep 1
+
+#7
+play :E4, release: 1.5
+sleep 1.5
+play :Ds4, release: 0.5
+sleep 0.5
+play :E4, release: 1
+sleep 1
+
+#8
+play :Fs4, release: 2
+sleep 2
+play :Ds4, release: 1
+sleep 1
+
+#9
+play :B3, release: 2
+sleep 2
+play :E4, release: 1
+sleep 1
+
+#10
+play :G4, release: 2
+sleep 2
+play :A4, release: 1
+sleep 1
+
+#11
+play :B4, release: 1.5
+sleep 1.5
+play :C5, release: 0.5
+sleep 0.5
+play :B4, release: 1
+sleep 1
+
+#12
+play :A4, release: 2
+sleep 2
+play :Fs4, release: 1
+sleep 1
+
+#13
+play :D4, release: 1.5
+sleep 1.5
+play :E4, release: 0.5
+sleep 0.5
+play :Fs4, release: 1
+sleep 1
+
+#14
+play :G4, release: 1.5
+sleep 1.5
+play :Fs4, release: 0.5
+sleep 0.5
+play :E4, release: 1
+sleep 1
+
+#15
+play :Ds4, release: 1
+sleep 1
+play :Cs4, release: 1
+sleep 1
+play :Ds4, release: 1
+sleep 1
+
+#16
+play :E4, release: 2
+sleep 2
+play :rest
+sleep 1
+
+#17
+play :E4, release: 5
+sleep 2
+play :rest
+sleep 1
