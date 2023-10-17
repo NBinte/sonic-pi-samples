@@ -111,3 +111,110 @@ play :E4, release: 5
 sleep 2
 play :rest
 sleep 1
+
+########
+
+ #18
+  play :D5, sustain: 3
+  sleep 3
+  
+  #19
+  play :D5, sustain: 1.5
+  sleep 1.5
+  play :C5, sustain: 0.5
+  sleep 0.5
+  play :B4, sustain: 1
+  sleep 1
+  
+  #20
+  play :A4, sustain: 2
+  sleep 2
+  play :Fs4, sustain: 1
+  sleep 1
+  
+  #21
+  play :D4, sustain: 1.5
+  sleep 1.5
+  play :E4, sustain: 0.5
+  sleep 0.5
+  play :Fs4, sustain: 1
+  sleep 1
+  
+  #22
+  play :G4, sustain: 2
+  sleep 2
+  play :E4, sustain: 1
+  sleep 1
+  
+  #23
+  play :E4, sustain: 1.5
+  sleep 1.5
+  play :Ds4, sustain: 0.5
+  sleep 0.5
+  play :E4, sustain: 1
+  sleep 1
+  
+  #24
+  play :Fs4, sustain: 2
+  sleep 2
+  play :Ds4, sustain: 1
+  sleep 1
+  
+  #25
+  play :B3, sustain: 2
+  sleep 2
+  play :rest
+  sleep 1
+  
+  #26
+  play :D5, sustain: 3
+  sleep 3
+  
+  #27
+  play :D5, sustain: 1.5
+  sleep 1.5
+  play :C5, sustain: 0.5
+  sleep 0.5
+  play :B4, sustain: 1
+  sleep 1
+  
+  
+  #28
+  play :A4, sustain: 2
+  sleep 2
+  play :Fs4, sustain: 1
+  sleep 1
+  
+  #29
+  play :D4, sustain: 1.5
+  sleep 1.5
+  play :E4, sustain: 0.5
+  sleep 0.5
+  play :Fs4, sustain: 1
+  sleep 1
+  
+  
+  #30
+  play :G4, sustain: 1.5
+  sleep 1.5
+  play :Fs4, sustain: 0.5
+  sleep 0.5
+  play :E4, sustain: 1
+  sleep 1
+  
+  #31
+  play :Ds4, sustain: 1
+  sleep 1
+  play :Cs4, sustain: 1
+  sleep 1
+  play :Ds4, sustain: 1
+  sleep 1
+  
+  #32
+  play :E4, sustain: 2
+  sleep 2
+  play :rest
+  sleep 1
+  
+  #33
+  play :E4, sustain: 3, release: 3
