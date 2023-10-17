@@ -1,3 +1,8 @@
+# Welcome to Sonic Pi
+# organ_tonewheel
+# piano
+# pluck
+
 use_synth :piano
 with_fx :reverb do
   
@@ -185,10 +190,15 @@ with_fx :reverb do
   use_synth :piano
   play :Ds4, sustain: 1
   use_synth :pluck
-  play_pattern_timed chord(:B2, :major), [1,1,0], sustain: 0
+  play :B2, sustain: 1
+  sleep 1
+  play :Ds3, sustain: 1
   use_synth :piano
   play :Cs4, sustain: 1
+  sleep 1
   play :Ds4, sustain: 1
+  use_synth :pluck
+  play :Fs3, sustain: 1
   sleep 1
   
   #16
@@ -212,108 +222,210 @@ with_fx :reverb do
   #######
   
   #18
+  use_synth :piano
   play :D5, sustain: 3
-  sleep 3
-  
-  #19
-  play :D5, sustain: 1.5
-  sleep 1.5
-  play :C5, sustain: 0.5
-  sleep 0.5
-  play :B4, sustain: 1
+  use_synth :pluck
+  play_pattern chord(:G3, :major)
   sleep 1
   
+  #19
+  use_synth :piano
+  play :D5, sustain: 1.5
+  use_synth :pluck
+  play :G3, sustain: 1
+  sleep 1.5
+  
+  
+  play :B3, sustain: 0.5
+  use_synth :piano
+  play :C5, sustain: 0.5
+  sleep 0.5
+  
+  play :B4, sustain: 1
+  use_synth :pluck
+  play :D4, sustain: 1
+  sleep 1
+  
+  
   #20
+  use_synth :piano
   play :A4, sustain: 2
-  sleep 2
+  use_synth :pluck
+  play_pattern_timed chord(:D3, :major), [1,1,0]
   play :Fs4, sustain: 1
   sleep 1
   
   #21
+  use_synth :piano
   play :D4, sustain: 1.5
+  use_synth :pluck
+  play :D3, sustain: 1
   sleep 1.5
+  
+  
+  play :Fs3, sustain: 0.5
+  use_synth :piano
   play :E4, sustain: 0.5
   sleep 0.5
+  
   play :Fs4, sustain: 1
+  use_synth :pluck
+  play :A3, sustain: 1
   sleep 1
   
+  
   #22
+  use_synth :piano
   play :G4, sustain: 2
-  sleep 2
+  use_synth :pluck
+  play_pattern_timed chord(:C3, :major), [1,1,0]
   play :E4, sustain: 1
   sleep 1
   
   #23
+  use_synth :piano
   play :E4, sustain: 1.5
+  use_synth :pluck
+  play :C3, sustain: 1
   sleep 1.5
+  
+  
+  play :E3, sustain: 0.5
+  use_synth :piano
   play :Ds4, sustain: 0.5
   sleep 0.5
+  
   play :E4, sustain: 1
+  use_synth :pluck
+  play :G3, sustain: 1
   sleep 1
   
   #24
+  use_synth :piano
   play :Fs4, sustain: 2
-  sleep 2
+  use_synth :pluck
+  play_pattern_timed chord(:B2, :major), [1,1,0]
   play :Ds4, sustain: 1
   sleep 1
   
   #25
+  use_synth :piano
   play :B3, sustain: 2
-  sleep 2
+  use_synth :pluck
+  play :A3, sustain: 0
+  sleep 1
+  play :G3, sustain: 0
+  sleep 1
+  use_synth :piano
   play :rest
+  use_synth :pluck
+  play :Fs3, sustain: 0
   sleep 1
   
+  
   #26
+  use_synth :piano
   play :D5, sustain: 3
-  sleep 3
+  use_synth :pluck
+  play_pattern chord(:G3, :major)
+  sleep 1
   
   #27
+  use_synth :piano
   play :D5, sustain: 1.5
+  use_synth :pluck
+  play :G3, sustain: 1
   sleep 1.5
+  
+  
+  play :B3, sustain: 0.5
+  use_synth :piano
   play :C5, sustain: 0.5
   sleep 0.5
+  
   play :B4, sustain: 1
+  use_synth :pluck
+  play :D4, sustain: 1
   sleep 1
   
   
   #28
+  use_synth :piano
   play :A4, sustain: 2
-  sleep 2
+  use_synth :pluck
+  play_pattern_timed chord(:D3, :major), [1,1,0]
   play :Fs4, sustain: 1
   sleep 1
   
   #29
+  use_synth :piano
   play :D4, sustain: 1.5
+  use_synth :pluck
+  play :D3, sustain: 1
   sleep 1.5
+  
+  
+  play :Fs3, sustain: 0.5
+  use_synth :piano
   play :E4, sustain: 0.5
   sleep 0.5
+  
   play :Fs4, sustain: 1
+  use_synth :pluck
+  play :A3, sustain: 1
   sleep 1
   
   
   #30
+  use_synth :piano
   play :G4, sustain: 1.5
+  use_synth :pluck
+  play :C3, sustain: 1
   sleep 1.5
+  
+  
+  play :E3, sustain: 0.5
+  use_synth :piano
   play :Fs4, sustain: 0.5
   sleep 0.5
+  
   play :E4, sustain: 1
+  use_synth :pluck
+  play :G3, sustain: 1
   sleep 1
   
+  
   #31
+  use_synth :piano
   play :Ds4, sustain: 1
+  use_synth :pluck
+  play :B2, sustain: 1
   sleep 1
+  play :Ds3, sustain: 1
+  use_synth :piano
   play :Cs4, sustain: 1
   sleep 1
   play :Ds4, sustain: 1
+  use_synth :pluck
+  play :Fs3, sustain: 1
   sleep 1
   
   #32
+  use_synth :piano
   play :E4, sustain: 2
-  sleep 2
+  use_synth :pluck
+  play_pattern_timed chord(:E3, :minor), [1,1,0]
   play :rest
   sleep 1
   
   #33
-  play :E4, sustain: 3, release: 3
+  use_synth :pluck
+  play :E3, sustain: 3
+  play :G3, sustain: 3
+  use_synth :piano
+  play :E4, sustain: 2
+  sleep 2
+  play :rest
+  
   
 end
