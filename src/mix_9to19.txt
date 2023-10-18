@@ -1,0 +1,147 @@
+# Welcome to Sonic Pi
+# organ_tonewheel
+# piano
+# pluck
+
+use_synth :kalimba
+with_fx :reverb do
+  
+  #9
+  use_synth :piano
+  play :B3, sustain: 2
+  use_synth :pluck
+  play :A3
+  sleep 1
+  play :G3
+  sleep 1
+  use_synth :piano
+  play :E4, sustain: 1
+  use_synth :pluck
+  play :Fs3
+  sleep 1
+  
+  #10
+  use_synth :bass_foundation
+  play chord(:E3, :minor), sustain: 2, release: 1
+  use_synth :piano
+  play :G4, sustain: 2
+  use_synth :pluck
+  play :E3
+  sleep 1
+  play :G3
+  sleep 1
+  play :B4
+  use_synth :piano
+  play :A4, sustain: 1
+  sleep 1
+  
+  #11
+  use_synth :bass_foundation
+  play chord(:E3, :minor), amp: 0.5, sustain: 2, release: 1
+  use_synth :piano
+  play :B4, sustain: 1.5
+  use_synth :pluck
+  play :E3, sustain: 1
+  sleep 1.5
+  
+  
+  play :G3, sustain: 0.5
+  use_synth :piano
+  play :C5, sustain: 0.5
+  sleep 0.5
+  
+  play :B4, sustain: 1
+  use_synth :pluck
+  play :B3, sustain: 1
+  sleep 1
+  
+  #12
+  use_synth :bass_foundation
+  play chord(:D3, :major), amp: 0.5, sustain: 2, release: 1
+  use_synth :piano
+  play :A4, sustain: 2
+  use_synth :pluck
+  play :D3
+  sleep 1
+  play :Fs3
+  sleep 1
+  play :A3
+  use_synth :piano
+  play :Fs4, sustain: 1
+  sleep 1
+  
+  #13
+  use_synth :bass_foundation
+  play chord(:D3, :major), amp: 0.5, sustain: 2, release: 1
+  use_synth :piano
+  play :D4, sustain: 1.5
+  use_synth :pluck
+  play :D3, sustain: 1
+  sleep 1.5
+  
+  play :Fs3, sustain: 0.5
+  use_synth :piano
+  play :E4, sustain: 0.5
+  sleep 0.5
+  
+  play :Fs4, sustain: 1
+  use_synth :pluck
+  play :A3, sustain: 1
+  sleep 1
+  
+  
+  #14
+  use_synth :bass_foundation
+  play chord(:C3, :major), amp: 0.5, sustain: 2, release: 1
+  use_synth :piano
+  play :G4, sustain: 1.5
+  use_synth :pluck
+  play :C3, sustain: 1
+  sleep 1.5
+  
+  
+  play :E3, sustain: 0.5
+  use_synth :piano
+  play :Fs4, sustain: 0.5
+  sleep 0.5
+  
+  play :E4, sustain: 1
+  use_synth :pluck
+  play :G3, sustain: 1
+  sleep 1
+  
+  
+  #15
+  use_synth :bass_foundation
+  play chord(:B2, :major), amp: 0.5, sustain: 2, release: 1
+  use_synth :piano
+  play :Ds4, sustain: 1
+  use_synth :pluck
+  play :B2, sustain: 1
+  sleep 1
+  play :Ds3, sustain: 1
+  use_synth :piano
+  play :Cs4, sustain: 1
+  sleep 1
+  play :Ds4, sustain: 1
+  use_synth :pluck
+  play :Fs3, sustain: 1
+  sleep 1
+  
+  #16
+  use_synth :bass_foundation
+  play chord(:E3, :minor), sustain: 2, release: 1
+  use_synth :piano
+  play :E4, sustain: 2
+  use_synth :pluck
+  play :E3
+  sleep 1
+  play :G3
+  sleep 1
+  play :B4
+  use_synth :piano
+  play :rest
+  sleep 1
+  
+  
+end
