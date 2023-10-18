@@ -4,6 +4,7 @@
 # pluck
 # kalimba
 
+# Add 107.00 bpm in GUI
 
 
 use_synth :kalimba
